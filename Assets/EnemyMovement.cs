@@ -33,8 +33,6 @@ public class EnemyMovement : MonoBehaviour
                 break;
             case 1:
                 //Lunge
-                Debug.Log(lunging);
-                Debug.Log("Velocity: " + velocity);
                 if (!lunging) {
                     if (timer < 0) {
                     lunging = true;
